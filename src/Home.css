@@ -1,0 +1,17 @@
+.navi-bar{
+    font-size: 50px;
+    background-color: orange;
+    position: inherit;
+    display: inline-block;
+
+}
+#header {
+    width: 100%;
+    background-color: rgba(65, 93, 132, 0.8);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 56px;
+    position: fixed;
+    top: 0;
+}
