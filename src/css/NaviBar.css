@@ -1,0 +1,40 @@
+#navi-bar{
+    height: 55px;
+}
+#navi-container{
+    padding: 0 16px;
+    font-size: 24px;
+    background-color: rgba(248, 239, 222, 0.8);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#navi-container a:hover{
+    color:#007bff;
+    text-decoration: none;
+}
+#navi-container a.active{
+    background-color: #666699;
+    color: white;
+}
+#navi-under{
+    width: 100%;
+    height: 100%;
+ }
+.navi-content{
+    flex: auto;
+    padding: 5px;
+    max-width: 20%;
+}
+.logo-img:hover {
+    -webkit-filter: invert(40%);
+}
+.logo-img {
+    background-color: rgba(25, 0, 255, 0.8);
+    -webkit-mask: url(../logo_small.svg) no-repeat center;
+    mask: url(../logo_small.svg) no-repeat center;
+}
